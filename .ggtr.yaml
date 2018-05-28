@@ -1,0 +1,7 @@
+srcpath: ""
+testsuites:
+  unit:
+    basePath: '/run'
+    command: 'vendor/bin/phpunit'
+    env:
+      AWS_CLI_TOKEN: dev-ops/docker/actions
